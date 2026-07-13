@@ -1,7 +1,7 @@
 # Lead Intelligence Pipeline
 
 [![CI](https://github.com/rongali-commits/lead-intelligence-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/rongali-commits/lead-intelligence-pipeline/actions/workflows/ci.yml)
-[Portfolio](https://www.rongalichaitanya.com) · [Discuss a data workflow](mailto:hello@rongalichaitanya.com)
+[Live application](https://rongali-commits.github.io/lead-intelligence-pipeline/) · [Portfolio](https://www.rongalichaitanya.com) · [Discuss a data workflow](mailto:hello@rongalichaitanya.com)
 
 A responsible, offline-first Python workflow for collecting structured business records, normalizing fields, removing duplicates, scoring completeness, and exporting sales-ready CSV files.
 
@@ -69,6 +69,7 @@ The score measures record completeness, not purchase intent. A human should appr
 
 ```text
 src/lead_intelligence/  collection, normalization, scoring, export, and CLI
+site/                   independently hosted browser edition
 sample_data/            fictional `.example` records only
 tests/                  deterministic pipeline tests
 docs/                   verified screenshot
