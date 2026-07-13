@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lead-intelligence-pipeline"
+version = "1.0.0"
+description = "A responsible offline lead normalization, deduplication, scoring, and export pipeline."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Rongali Chaitanya" }]
+dependencies = ["beautifulsoup4>=4.12,<5"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3,<9", "ruff>=0.9,<1"]
+
+[project.scripts]
+lead-pipeline = "lead_intelligence.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lead_intelligence"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
