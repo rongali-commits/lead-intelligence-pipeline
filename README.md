@@ -1,7 +1,7 @@
 # Lead Intelligence Pipeline
 
 [![CI](https://github.com/rongali-commits/lead-intelligence-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/rongali-commits/lead-intelligence-pipeline/actions/workflows/ci.yml)
-[Live application](https://rongali-commits.github.io/lead-intelligence-pipeline/) · [Portfolio](https://www.rongalichaitanya.com) · [Discuss a data workflow](mailto:hello@rongalichaitanya.com)
+[Live application](https://rongali-commits.github.io/lead-intelligence-pipeline/) · [Portfolio](https://noerong.com/projects) · [Discuss a data workflow](mailto:hello@noerong.com)
 
 A responsible, offline-first Python workflow for collecting structured business records, normalizing fields, removing duplicates, scoring completeness, and exporting sales-ready CSV files.
 
